@@ -31,4 +31,9 @@ public class CustomerController {
 
         return "list-customers";
     }
+
+    @RequestMapping("/showFormAdd")
+    public String addCustomer() {
+        return "add-customer";
+    }
 }
